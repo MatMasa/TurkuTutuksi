@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turku Tutuksi</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+</head>
+
+<body>
+    <div class="ui secondary menu" id="desktopMenu">
+        <a class="active item" href="index_en.html">
+            Home
+        </a>
+
+        <a class="item" href="about_en.html">
+            About
+        </a>
+        <div class="right menu">
+            <div class="item" id="test">
+                <a href="index.html">
+                    <img src="Images/fin_flag.jpg" alt="FI">
+                </a>
+            </div>
+            <div class="active item">
+                <a href="index_en.html">
+                    <img src="Images/gb_flag.jpg" alt="EN">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui icon menu" id="mobileMenu">
+        <a class="active item" href="index.html">
+            <i class="home icon"></i>
+        </a>
+        <a class="item" href="about.html">
+            <i class="info icon"></i>
+        </a>
+        <div class="right menu">
+            <a class="item" href="#">
+                <i class="search icon"></i>
+            </a>
+        </div>
+    </div>
+
+    <h1>Turku Tutuksi Web application </h1>
+    <div class="ui stackable grid">
+
+        <div class="four wide column">
+            <div class="ui secondary segment">
+                <h1 class="ui dividing header">Search places...</h1>
+                <div class="ui fluid left icon input loading">
+                    <input type="text" placeholder="Search...">
+                    <i class="search icon"></i>
+                </div>
+
+                <h1 class="ui dividing header">Filter results...</h1>
+
+                <div class="ui selection dropdown">
+                    <input type="hidden" name="type">
+                    <i class="dropdown icon"></i>
+                    <div class="default text">select type</div>
+                    <div class="menu">
+                        <div class="item" data-value="0">Free & paid entry</div>
+                        <div class="item" data-value="1">Free</div>
+                        <div class="item" data-value="2">Paid</div>
+                    </div>
+                </div>
+
+                <script>
+                    $('.ui.dropdown')
+            .dropdown()
+;
+        </script>
+
+                <div class="ui hidden divider"></div>
+
+                <div class="ui checkbox">
+                    <input type="checkbox" name="example">
+                    <label>Churches</label>
+                </div>
+                <div class="ui checkbox">
+                    <input type="checkbox" name="example">
+                    <label>Museums</label>
+                </div>
+                <div class="ui checkbox">
+                    <input type="checkbox" name="example">
+                    <label> <i class="bicycle icon"></i> City bikes</label>
+                </div>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <div class="ui secondary segment">
+                <p class="ui green centered header"> Some very nice text here - Lorem Ipsum </p>
+            </div>
+            <!--Embeded Google maps-->
+            <div class="ui embed" data-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.0392443487792!2d22.294531646735322!3d60.449117850518846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c76e7c3b0f5d5%3A0x3b0a3d5656fc4a23!2sICT-City!5e0!3m2!1sfi!2sfi!4v1518518375173"
+                data-placeholder="" data-icon="right circle arrow">
+            </div>
+
+            <script>
+                // For Google maps
+      $('.ui.embed').embed();
+    </script>
+
+            <div class="ui hidden section divider"></div>
+
+        </div>
+    </div>
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui center aligned container">
+            <div class="ui stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Community</h4>
+                    <div class="ui inverted link list">
+                        <a class="item" href="#" target="_blank">Help me</a>
+                        <a class="item" href="#" target="_blank"> make</a>
+                        <a class="item" href="#" target="_blank"> money</a>
+                        <a class="item" href="#" target="_blank">fast</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Network</h4>
+                    <div class="ui inverted link list">
+                        <a class="item" href="#" target="_blank">Link #1</a>
+                        <a class="item" href="#" target="_blank">Link #2</a>
+                        <a class="item" href="#">Link #3</a>
+                        <a class="item" href="#">Link #4</a>
+                    </div>
+                </div>
+                <div class="seven wide right floated column">
+                    <h4 class="ui inverted header">Random nonsense</h4>
+                    <p> Lorem ipsum dolor sit aamuja</p>
+                    <form action="#" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <button type="submit" class="ui large inverted teal button">Button</button>
+                    </form>
+                </div>
+            </div>
+            <div class="ui section divider"></div>
+            <i class="github icon"> </i>
+            <div class="ui inverted horizontal small divided link list">
+                <a class="item" href="https://pages.github.com/" target="_blank">Hosted with GitHub Pages</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

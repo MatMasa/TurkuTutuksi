@@ -16,18 +16,22 @@
 <body>
   <div class="ui secondary menu" id="desktopMenu">
     <a class="active item" href="index.html">
-      Home
+      Etusivu
     </a>
 
     <a class="item" href="about.html">
       About
     </a>
     <div class="right menu">
+      <div class="active item" id="test">
+        <a href="index.html">
+          <img src="Images/fin_flag.jpg" alt="FI">
+        </a>
+      </div>
       <div class="item">
-        <div class="ui icon input">
-          <input type="text" placeholder="Fake search...">
-          <i class="search link icon"></i>
-        </div>
+        <a href="index_en.html">
+          <img src="Images/gb_flag.jpg" alt="EN">
+        </a>
       </div>
     </div>
   </div>
@@ -46,35 +50,55 @@
     </div>
   </div>
 
-  <h1>Turku Tutuksi Web application </h1>
+  <h1>Turku Tutuksi - kulttuurikohteet ja fölipyörät </h1>
   <div class="ui stackable grid">
 
     <div class="four wide column">
       <div class="ui secondary segment">
-        <h1 class="ui dividing header">Search places...</h1>
+        <h1 class="ui dividing header">Etsi kohteita...</h1>
         <div class="ui fluid left icon input loading">
           <input type="text" placeholder="Search...">
           <i class="search icon"></i>
         </div>
 
-        <h1 class="ui dividing header">Filter results...</h1>
+        <h1 class="ui dividing header">Suodata kohteita...</h1>
+
+        <div class="ui selection dropdown">
+          <input type="hidden" name="type">
+          <i class="dropdown icon"></i>
+          <div class="default text">Valitse tyyppi</div>
+          <div class="menu">
+            <div class="item" data-value="0"> Ilmaiset ja maksulliset</div>
+            <div class="item" data-value="1">Ilmaiset</div>
+            <div class="item" data-value="2">Maksulliset</div>
+          </div>
+        </div>
+
+        <script>
+          $('.ui.dropdown')
+            .dropdown()
+;
+        </script>
+
+        <div class="ui hidden divider"></div>
+
         <div class="ui checkbox">
           <input type="checkbox" name="example">
-          <label>Churches</label>
+          <label>Kirkot</label>
         </div>
         <div class="ui checkbox">
           <input type="checkbox" name="example">
-          <label>Museums</label>
+          <label>Museot</label>
         </div>
         <div class="ui checkbox">
           <input type="checkbox" name="example">
-          <label> <i class="bicycle icon"></i> City bikes</label>
+          <label> <i class="bicycle icon"></i> Kaupunkipyörät</label>
         </div>
       </div>
     </div>
     <div class="eight wide column">
       <div class="ui secondary segment">
-        <p class="ui green centered header"> Some very nice text here - Lorem Ipsum </p>
+        <p class="ui green centered header"> Väliaikaista tekstiä - Lorem Ipsum </p>
       </div>
       <!--Embeded Google maps-->
       <div class="ui embed" data-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1170.0392443487792!2d22.294531646735322!3d60.449117850518846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c76e7c3b0f5d5%3A0x3b0a3d5656fc4a23!2sICT-City!5e0!3m2!1sfi!2sfi!4v1518518375173"
