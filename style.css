@@ -2,8 +2,9 @@
     min-width: 300px;
 }
 
-
-
+#wrapper {
+    margin: 0% 1% 2% 1%;
+}
 
 @media only screen and (max-width: 768px) {
     #desktopMenu {
@@ -13,13 +14,10 @@
     #mobileMenu {
         display: flex;
     }
-
-
 }
 
 @media only screen and (min-width: 769px) {
     #mobileMenu {
         display: none;
     }
-
 }
