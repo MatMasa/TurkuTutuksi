@@ -90,7 +90,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Wäinö Aaltosen Museo"
+                "popupContent": "Tämä on Wäinö Aaltosen Museo ja ulkopatsaat"
             },
             "id": 51
         },
@@ -112,8 +112,8 @@ var kultuuriKohteet = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    22.262353,
-					60.453984
+                    22.2617000,
+					60.453930
 
                 ]
             },
@@ -183,8 +183,8 @@ var kultuuriKohteet = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    22.2677063,
-          60.4552745
+                    22.2698455,
+                    60.4553247
                 ]
             },
             "type": "Feature",
@@ -196,14 +196,70 @@ var kultuuriKohteet = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    22.2625597,
-          60.4537095
+                    22.2625100,
+                    60.453764
 
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Victor Westerholm patsas"
+                "popupContent": "Tämä on Victor Westerholmin muotokuvahermi"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2620063,
+          60.4536163
+
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Robert W. Ekmanin muotokuvahermi "
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2716215,
+                    60.4486574
+
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Turun Lilja patsas"
+            }
+        },
+            {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2701924,
+          60.4480107
+
+        ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Paavo Nurmen patsas"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2647324,
+                    60.4465085
+
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Aleksis Kiven muistomerkki"
             }
         }
     ]
