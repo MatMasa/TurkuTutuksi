@@ -76,7 +76,7 @@ var lightRailStop = {
     ]
 };
 */
-var bicycleRental = {
+var kultuuriKohteet = {
     "type": "FeatureCollection",
     "features": [
         {
