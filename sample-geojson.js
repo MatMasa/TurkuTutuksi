@@ -90,7 +90,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Wäinö Aaltosen Museo"
             },
             "id": 51
         },
@@ -104,7 +104,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Kakolan vanha vankila rakennus"
             },
             "id": 52
         },
@@ -119,7 +119,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Turun taidemuseo"
             },
             "id": 54
         },
@@ -133,7 +133,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Turun tuomiokirkko"
             },
             "id": 55
         },
@@ -147,7 +147,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Aboa vetus & Ars Nova museo"
             },
             "id": 57
         },
@@ -161,7 +161,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Turun biologinen museo"
             },
             "id": 58
         },
@@ -175,7 +175,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tämä on Martinkirkko"
             },
             "id": 74
         }
