@@ -192,7 +192,7 @@
 		popupAnchor: [0, -28]
 	});
 		function onEachFeature(feature, layer) {
-		var popupContent = "";
+		var popupContent = ""; // voidaan lisätä jokaiselle popup contentille tekstiä.
 
 		if (feature.properties && feature.properties.popupContent) {
 			popupContent += feature.properties.popupContent;
