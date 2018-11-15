@@ -159,7 +159,7 @@ var kultuuriKohteet = {
 					60.444511
                 ]
             },
-            "type": "Feature",
+			"type": "Feature",
             "properties": {
                 "popupContent": "Tämä on Turun biologinen museo"
             },

@@ -165,6 +165,26 @@
 		var controlSearch = new L.Control.Search({layer: markersLayer, initial: true, position:'topright'});
 		mymap.addControl( controlSearch );
 		
+		
+		/*
+		////////////populate map with markers from sample data
+	for(i in data) {
+		var title = data[i].title,	//value searched
+			loc = data[i].loc,		//position found
+			marker = new L.Marker(new L.latLng(loc), {title: title} );//se property searched
+		marker.bindPopup('title: '+ title );
+		markersLayer.addLayer(marker);
+	}
+
+	$('#textsearch').on('keyup', function(e) {
+
+		controlSearch.searchText( e.target.value );
+
+	})
+		
+		
+		
+		*/
 		var baseballIcon = L.icon({
 		iconUrl: 'baseball-marker.png',
 		iconSize: [32, 37],
