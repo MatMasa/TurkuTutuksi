@@ -84,8 +84,8 @@ var kultuuriKohteet = {
                 "type": "Point",
                 "coordinates": [
                     22.260142,
-					60.444957
-                    
+					          60.444957
+
                 ]
             },
             "type": "Feature",
@@ -113,8 +113,8 @@ var kultuuriKohteet = {
                 "type": "Point",
                 "coordinates": [
                     22.262353,
-					60.453984 
-					
+					60.453984
+
                 ]
             },
             "type": "Feature",
@@ -128,7 +128,7 @@ var kultuuriKohteet = {
                 "type": "Point",
                 "coordinates": [
                     22.278358,
-					60.451595 
+					60.451595
                 ]
             },
             "type": "Feature",
@@ -142,7 +142,7 @@ var kultuuriKohteet = {
                 "type": "Point",
                 "coordinates": [
                     22.273500,
-					60.449662 
+					60.449662
                 ]
             },
             "type": "Feature",
@@ -179,8 +179,18 @@ var kultuuriKohteet = {
             },
             "id": 74
         }
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2677063,
+          60.4552745
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Kun ystävyyssuhteet solmitaan patsas"
+            },
+        }
     ]
 };
-
-
-
