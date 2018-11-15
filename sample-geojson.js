@@ -81,8 +81,8 @@ var bicycleRental = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -104.9998241,
-                    39.7471494
+                    60.444957,
+                    22.260142
                 ]
             },
             "type": "Feature",
