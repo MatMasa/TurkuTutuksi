@@ -261,6 +261,20 @@ var kultuuriKohteet = {
             "properties": {
                 "popupContent": "Tämä on Aleksis Kiven muistomerkki"
             }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2254193,
+                    60.4274832
+
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Muistijälki teos"
+            }
         }
     ]
 };
