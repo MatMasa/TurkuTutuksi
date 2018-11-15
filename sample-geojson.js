@@ -178,7 +178,7 @@ var kultuuriKohteet = {
                 "popupContent": "Tämä on Martinkirkko"
             },
             "id": 74
-        }
+        },
         {
             "geometry": {
                 "type": "Point",
@@ -190,7 +190,21 @@ var kultuuriKohteet = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Tämä on Kun ystävyyssuhteet solmitaan patsas"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.2625597,
+          60.4537095
+
+                ]
             },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Tämä on Victor Westerholm patsas"
+            }
         }
     ]
 };
