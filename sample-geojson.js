@@ -79,6 +79,7 @@ var lightRailStop = {
 var kultuuriKohteet = {
     "type": "FeatureCollection",
     "features": [
+	
         {
             "geometry": {
                 "type": "Point",
@@ -127,20 +128,6 @@ var kultuuriKohteet = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    22.278358,
-					60.451595
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Turun tuomiokirkko"
-            },
-            "id": 55
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     22.273500,
 					60.449662
                 ]
@@ -164,20 +151,6 @@ var kultuuriKohteet = {
                 "popupContent": "Tämä on Turun biologinen museo"
             },
             "id": 58
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    22.254547,
-					60.440826
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Martinkirkko"
-            },
-            "id": 74
         },
         {
             "geometry": {
@@ -278,3 +251,5 @@ var kultuuriKohteet = {
         }
     ]
 };
+
+	
