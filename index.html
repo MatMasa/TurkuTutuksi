@@ -145,7 +145,10 @@
     
 	
 	<script src="leaflet-search.js"></script>
-	<script src="sample-geojson.js" type="text/javascript"></script>
+	<script src="museums-geojson.js" type="text/javascript"></script>
+	<script src="churches-geojson.js" type="text/javascript"></script>
+	<script src="bikes-geojson.js" type="text/javascript"></script>
+	
 	
 	<script>
 	
@@ -202,7 +205,7 @@
 	}
 	
 	
-	L.geoJSON([kultuuriKohteet], {
+	L.geoJSON([bikes], {
 
 		style: function (feature) {
 			return feature.properties && feature.properties.style;
