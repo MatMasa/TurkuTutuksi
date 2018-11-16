@@ -84,73 +84,15 @@ var kultuuriKohteet = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    22.260142,
-					          60.444957
-
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Wäinö Aaltosen Museo ja ulkopatsaat"
-            },
-            "id": 51
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     22.243073,
                     60.443153
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Kakolan vanha vankila rakennus"
+                "popupContent": "Kakolan vanha vankila"
             },
             "id": 52
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    22.2617000,
-					60.453930
-
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Turun taidemuseo"
-            },
-            "id": 54
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    22.273500,
-					60.449662
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Aboa vetus & Ars Nova museo"
-            },
-            "id": 57
-        },
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    22.264644,
-					60.444511
-                ]
-            },
-			"type": "Feature",
-            "properties": {
-                "popupContent": "Tämä on Turun biologinen museo"
-            },
-            "id": 58
         },
         {
             "geometry": {
@@ -162,7 +104,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Kun ystävyyssuhteet solmitaan patsas"
+                "popupContent": "Kun ystävyyssuhteet solmitaan patsas"
             }
         },
         {
@@ -176,7 +118,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Victor Westerholmin muotokuvahermi"
+                "popupContent": "Victor Westerholmin muotokuvahermi"
             }
         },
         {
@@ -190,7 +132,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Robert W. Ekmanin muotokuvahermi "
+                "popupContent": "Robert W. Ekmanin muotokuvahermi "
             }
         },
         {
@@ -204,7 +146,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Turun Lilja patsas"
+                "popupContent": "Turun Lilja -patsas"
             }
         },
             {
@@ -218,7 +160,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Paavo Nurmen patsas"
+                "popupContent": "Paavo Nurmen patsas"
             }
         },
         {
@@ -232,7 +174,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Aleksis Kiven muistomerkki"
+                "popupContent": "Aleksis Kiven muistomerkki"
             }
         },
         {
@@ -246,7 +188,7 @@ var kultuuriKohteet = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Tämä on Muistijälki teos"
+                "popupContent": "Muistijälki teos"
             }
         }
     ]
