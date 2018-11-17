@@ -2,7 +2,7 @@ var sculptures = {
 	    "type": "FeatureCollection",
 		"features": [
     {
-		
+
         "geometry": {
             "type": "Point",
             "coordinates": [
@@ -74,7 +74,7 @@ var sculptures = {
         "properties": {
             "popupContent": "Paavo Nurmi -patsas",
 			"name": "Paavo Nurmi- patsas"
-			
+
         }
     },
     {
@@ -88,7 +88,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Aleksis Kiven muistomerkki"
+            "popupContent": "Aleksis Kiven muistomerkki -patsas",
+						"name": "Aleksis Kiven muistomerkki -patsas"
         }
     },
     {
@@ -116,7 +117,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "V.I. Lenin -patsas"
+            "popupContent": "V.I. Lenin -patsas",
+						"name": "V.I. Lenin -patsas"
         }
     },
     {
@@ -158,7 +160,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Europe -patsas"
+            "popupContent": "Europe -patsas",
+						"name": "Europe -patsas"
         }
     },
     {
@@ -285,7 +288,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Aino -patsas"
+            "popupContent": "Aino -patsas",
+						"name": "Aino -patsas"
         }
     },
     {
@@ -299,7 +303,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Ahkerat lukutoukat -patsas"
+            "popupContent": "Ahkerat lukutoukat -patsas",
+						"name": "Ahkerat lukutoukat -patsas"
         }
     },
     {
@@ -313,7 +318,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Kissa-Kallu -patsas"
+            "popupContent": "Kissa-Kallu -patsas",
+						"name": "Kissa-Kallu -patsas"
         }
     },
     {
@@ -369,7 +375,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Turku työllä rakennetaan -patsas"
+            "popupContent": "Turku työllä rakennetaan -patsas",
+						"name": "Turku työllä rakennetaan -patsas"
         }
     },
     {
@@ -397,7 +404,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Heikki nurmio -patsas"
+            "popupContent": "Heikki nurmio -patsas",
+						"name": "Heikki nurmio -patsas"
         }
     },
     {
@@ -453,7 +461,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Tapaaminen Turussa 1812 -patsas"
+            "popupContent": "Tapaaminen Turussa 1812 -patsas",
+						"name": "Tapaaminen Turussa 1812 -patsas"
         }
     },
     {
@@ -481,7 +490,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Suomen Marsalkka C. G. E. Mannerheim -patsas"
+            "popupContent": "Suomen Marsalkka C. G. E. Mannerheim -patsas",
+						"name": "Suomen Marsalkka C. G. E. Mannerheim -patsas"
         }
     },
     {
@@ -495,7 +505,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "J. J. Wecksell -patsas"
+            "popupContent": "J. J. Wecksell -patsas",
+						"name": "J. J. Wecksell -patsas"
         }
     },
     {
@@ -523,7 +534,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Ystävyyden -patsas"
+            "popupContent": "Ystävyyden -patsas",
+						"name": "Ystävyyden -patsas"
         }
     },
     {
@@ -552,7 +564,7 @@ var sculptures = {
         "properties": {
             "popupContent": "Fibonacci Sequence 1–55 -teos"
         }
-    },			
+    },
 	{
             "geometry": {
                 "type": "Point",
@@ -564,9 +576,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Kissa-Alli -patsas"
+                "popupContent": "Kissa-Alli -patsas",
+								"name": "Kissa-Alli -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -578,9 +591,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Korppu-Vihtori -patsas"
+                "popupContent": "Korppu-Vihtori -patsas",
+								"name": "Korppu-Vihtori -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -592,9 +606,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Portsan pojat -patsas"
+                "popupContent": "Portsan pojat -patsas",
+								"name": "Portsan pojat -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -607,9 +622,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Hirvi -patsas"
+                "popupContent": "Hirvi -patsas",
+								"name": "Hirvi -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -622,9 +638,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Joutsenet -patsas"
+                "popupContent": "Joutsenet -patsas",
+								"name": "Joutsenet -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -636,9 +653,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Kurjet kaivolla -patsas"
+                "popupContent": "Kurjet kaivolla -patsas",
+								"name": "Kurjet kaivolla -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -650,9 +668,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Kurjet pesällä -patsas"
+                "popupContent": "Kurjet pesällä -patsas",
+								"name": "Kurjet pesällä -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -664,9 +683,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Merikotkat -patsas"
+                "popupContent": "Merikotkat -patsas",
+								"name": "Merikotkat -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -678,9 +698,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Ylös pyhään pyörryttävään korkeuteen -patsas"
+                "popupContent": "Ylös pyhään pyörryttävään korkeuteen -patsas",
+								"name": "Ylös pyhään pyörryttävään korkeuteen -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -692,9 +713,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Vahva -patsas"
+                "popupContent": "Vahva -patsas",
+								"name": "Vahva -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -707,9 +729,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Matkan varrelta -patsas"
+                "popupContent": "Matkan varrelta -patsas",
+								"name": "Matkan varrelta -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -721,9 +744,10 @@ var sculptures = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Äiti ja lapsi -patsas"
+                "popupContent": "Äiti ja lapsi -patsas",
+								"name": "Äiti ja lapsi -patsas"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -737,7 +761,7 @@ var sculptures = {
             "properties": {
                 "popupContent": "Dominikaaniluostarin muistomerkki -teos"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -752,7 +776,7 @@ var sculptures = {
             "properties": {
                 "popupContent": "Tiedon pyramidi -teos"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -766,7 +790,7 @@ var sculptures = {
             "properties": {
                 "popupContent": "Iglu -teos"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -780,7 +804,7 @@ var sculptures = {
             "properties": {
                 "popupContent": "Koppi ja kovaluu -teos"
             }
-        },			
+        },
 		{
             "geometry": {
                 "type": "Point",
@@ -801,7 +825,7 @@ var sculptures = {
                 "coordinates": [
                     22.268755,
 					60.448982
-					
+
                 ]
             },
             "type": "Feature",
@@ -816,7 +840,7 @@ var sculptures = {
                     22.263011,
 					60.447024
 
-					
+
                 ]
             },
             "type": "Feature",
@@ -829,14 +853,15 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.261286,
-					60.448447 
+					60.448447
 
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Erik Julin -patsas"
+                "popupContent": "Erik Julin -patsas",
+								"name": "Erik Julin -patsas"
             }
         },
 		{
@@ -845,12 +870,13 @@ var sculptures = {
                 "coordinates": [
                     22.27771,
 					60.451623
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Pietari Brahen muistomerkki -patsas"
+                "popupContent": "Pietari Brahen muistomerkki -patsas",
+								"name": "Pietari Brahen muistomerkki -patsas"
             }
         },
 		{
@@ -860,12 +886,13 @@ var sculptures = {
                     22.352854,
 					60.446779
 
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Puhuri -patsas"
+                "popupContent": "Puhuri -patsas",
+								"name": "Puhuri -patsas"
             }
         },
 		{
@@ -874,7 +901,7 @@ var sculptures = {
                 "coordinates": [
                     22.237152,
 					60.436682
-					
+
                 ]
             },
             "type": "Feature",
@@ -888,12 +915,13 @@ var sculptures = {
                 "coordinates": [
                     22.282774,
 					60.458582
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Lotta Svärd -patsas"
+                "popupContent": "Lotta Svärd -patsas",
+								"name": "Lotta Svärd -patsas"
             }
         },
 		{
@@ -901,13 +929,14 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.282381,
-					60.453494 
-					
+					60.453494
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Muusat -patsas"
+                "popupContent": "Muusat -patsas",
+								"name": "Muusat -patsas"
             }
         },
 		{
@@ -915,8 +944,8 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.262577,
-					60.445745 
-					
+					60.445745
+
                 ]
             },
             "type": "Feature",
@@ -930,7 +959,7 @@ var sculptures = {
                 "coordinates": [
                     22.265839,
 					60.446508
-					
+
                 ]
             },
             "type": "Feature",
@@ -945,12 +974,13 @@ var sculptures = {
                     22.280915,
 					60.457674
 
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Rumpalit -patsas"
+                "popupContent": "Rumpalit -patsas",
+								"name": "Rumpalit -patsas"
             }
         },
 		{
@@ -959,7 +989,7 @@ var sculptures = {
                 "coordinates": [
                     22.298096,
 					60.459996
-					
+
                 ]
             },
             "type": "Feature",
@@ -973,12 +1003,13 @@ var sculptures = {
                 "coordinates": [
                     22.275694,
 					60.451255
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "H. G. Porthanin muistomerkki -patsas"
+                "popupContent": "H. G. Porthanin muistomerkki -patsas",
+								"name": "H. G. Porthanin muistomerkki -patsas"
             }
         },
 		{
@@ -986,9 +1017,9 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.274861,
-					60.45106 
+					60.45106
 
-					
+
                 ]
             },
             "type": "Feature",
@@ -1001,14 +1032,15 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.256605,
-					60.445447 
+					60.445447
 
-					
+
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Jäinen meri -patsas"
+                "popupContent": "Jäinen meri -patsas",
+								"name": "Jäinen meri -patsas"
             }
         },
 		{
@@ -1016,9 +1048,9 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.257212,
-					60.445457 
+					60.445457
 
-					
+
                 ]
             },
             "type": "Feature",
@@ -1032,7 +1064,7 @@ var sculptures = {
                 "coordinates": [
                     22.25774,
 					60.445663
-					
+
                 ]
             },
             "type": "Feature",
@@ -1045,9 +1077,9 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.258558,
-					60.445006 
+					60.445006
 
-					
+
                 ]
             },
             "type": "Feature",
@@ -1061,7 +1093,7 @@ var sculptures = {
                 "coordinates": [
                     22.284808,
 					60.446651
-					
+
                 ]
             },
             "type": "Feature",
@@ -1076,7 +1108,7 @@ var sculptures = {
                     22.252756,
 					60.444199
 
-					
+
                 ]
             },
             "type": "Feature",
@@ -1089,8 +1121,8 @@ var sculptures = {
                 "type": "Point",
                 "coordinates": [
                     22.280114,
-					60.452255 
-					
+					60.452255
+
                 ]
             },
             "type": "Feature",
@@ -1100,5 +1132,3 @@ var sculptures = {
         }
 	]
 }
-
-		
