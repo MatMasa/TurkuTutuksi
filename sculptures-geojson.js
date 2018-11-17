@@ -2,6 +2,7 @@ var sculptures = {
 	    "type": "FeatureCollection",
 		"features": [
     {
+		
         "geometry": {
             "type": "Point",
             "coordinates": [
@@ -11,7 +12,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Kun ystävyyssuhteet solmitaan -patsas"
+            "popupContent": "Kun ystävyyssuhteet solmitaan -patsas",
+			"name": "Kun ystävyyssuhteet solmitaan -patsas"
         }
     },
     {
@@ -25,7 +27,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Victor Westerholmin muotokuvahermi"
+            "popupContent": "Victor Westerholmin muotokuvahermi",
+			"name": "Victor Westerholmin muotokuvahermi"
         }
     },
     {
@@ -39,7 +42,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Robert W. Ekmanin muotokuvahermi"
+            "popupContent": "Robert W. Ekmanin muotokuvahermi",
+			"name": "Robert W. Ekmanin muotokuvahermi"
         }
     },
     {
@@ -53,7 +57,8 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Turun Lilja -patsas"
+            "popupContent": "Turun Lilja -patsas",
+			"name": "Turun Lilja -patsas"
         }
     },
     {
@@ -67,7 +72,9 @@ var sculptures = {
         },
         "type": "Feature",
         "properties": {
-            "popupContent": "Paavo Nurmi -patsas"
+            "popupContent": "Paavo Nurmi -patsas",
+			"name": "Paavo Nurmi- patsas"
+			
         }
     },
     {

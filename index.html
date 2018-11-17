@@ -110,32 +110,64 @@
           <div class="ui hidden divider"></div>
 
           <div class="ui checkbox">
-            <input type="checkbox" name="kirkotCheckbox">
+            <input type="checkbox" id="myCheck" onclick="kirkkoFunction()">
             <label>Kirkot</label>
           </div>
           <div class="ui checkbox">
-            <input type="checkbox" name="museotCheckbox">
+            <input type="checkbox" id="myCheck1" onclick="museoFunction()">
             <label>Museot</label>
           </div>
           <div class="ui checkbox">
-            <input type="checkbox" name="pyörätCheckbox">
+            <input type="checkbox"id="myCheck2" onclick="pyörätFunction()" >
             <label> <i class="bicycle icon"></i> Kaupunkipyörät</label>
           </div>
 		  
 		  
 		  
-		  <script> //                                                    testi scriptiä filtteroinille
-		  /*
-		  function testFunction() {
-			var checkbox = document.getElementById("bikes");
+		  <script> //   testi scriptiä filtteroinille
+		  function kirkkoFunction() {
+			var checkbox = document.getElementById("myCheck");
 				if(checkbox.checked == true) {
-					bikes.style.display = "none"
+					mymap.removeLayer(pyörät);
+					mymap.removeLayer(museot);
+					mymap.removeLayer(veistokset);
 				} else {
-				bikes.style.display = "block"
+				mymap.addLayer(pyörät)
+				mymap.addLayer(museot)
+				mymap.addLayer(veistokset)
 				}
 		  
 		  }
-		  */
+		  
+		  function museoFunction() {
+			var checkbox = document.getElementById("myCheck1");
+				if(checkbox.checked == true) {
+					mymap.removeLayer(pyörät);
+					mymap.removeLayer(kirkot);
+					mymap.removeLayer(veistokset);
+				} else {
+				mymap.addLayer(pyörät)
+				mymap.addLayer(kirkot)
+				mymap.addLayer(veistokset)
+				}
+		  
+		  }
+		  
+		  function pyörätFunction() {
+			var checkbox = document.getElementById("myCheck2");
+				if(checkbox.checked == true) {
+					mymap.removeLayer(museot);
+					mymap.removeLayer(kirkot);
+					mymap.removeLayer(veistokset);
+				} else {
+				mymap.addLayer(museot)
+				mymap.addLayer(kirkot)
+				mymap.addLayer(veistokset)
+				}
+		  
+		  }
+		  
+		  
 		  </script>
 				
 		  
@@ -228,7 +260,7 @@
 		
 		
 	var overlays = {
-		"Pyörät": pyörät,
+	 	"Pyörät": pyörät,
 		"Museot": museot,
 		"Kirkot": kirkot,
 		"Veistokset": veistokset
@@ -236,6 +268,17 @@
 	
 	L.control.layers(overlays).addTo(mymap);
 	
+	
+	L.control.search({
+		layer: poiLayers,
+		initial: false,
+		propertyName: 'name',
+		buildTip: function(text, val) {
+			var type = val.layer.feature.properties.name;
+			return '<a href="#" class="'+properties+'">'+name+'<b>'+type+'</b></a>';
+		}
+	})
+	.addTo(mymap);
 	
 	
 	
