@@ -1,18 +1,36 @@
+/* Used to push down the footer down to bottom when not enouch content*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: 260px !important;
+}
+
+/* END */
+
 #filtering {
     min-width: 300px;
 }
 
+
+
 #wrapper {
-    margin: 0% 1% 2% 1%;
+    margin: 5px 10px 5px 10px;
 }
 
 #mapId {
     height: 90%;
+    min-width: 300px;
 }
 
 .weatherwidget-io {
     max-height: 220px;
 }
+
+
+
 @media only screen and (max-width: 768px) {
     #desktopMenu {
         display: none !important;
@@ -21,6 +39,12 @@
     #mobileMenu {
         display: flex;
     }
+
+    #mapId {
+        height: 22em !important;
+    }
+
+
 }
 
 @media only screen and (min-width: 769px) {
