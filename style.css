@@ -14,10 +14,8 @@ body {
     min-width: 275px;
 }
 
-
-
 #wrapper {
-    margin: 5px 10px 5px 10px;
+    margin: 0% 1% 2% 1%;
 }
 
 #mapId {
@@ -29,8 +27,6 @@ body {
     max-height: 220px;
 }
 
-
-
 @media only screen and (max-width: 767px) {
     #desktopMenu {
         display: none !important;
@@ -41,14 +37,13 @@ body {
     }
 
     #mapId {
-        height: 23em !important;
+        height: 27em !important;
         width: 100%;
     }
 
     #wrapper {
         margin: 1% 1% 1% 1%;
     }
-
 
 }
 
