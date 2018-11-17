@@ -33,7 +33,7 @@ var sculptures = {
             "type": "Point",
             "coordinates": [
                 22.2620063,
-      60.4536163
+				60.4536163
 
             ]
         },
@@ -61,7 +61,7 @@ var sculptures = {
             "type": "Point",
             "coordinates": [
                 22.2701924,
-      60.4480107
+				60.4480107
 
     ]
         },
@@ -102,8 +102,8 @@ var sculptures = {
         "geometry": {
             "type": "Point",
             "coordinates": [
-      22.262637155158927,
-      60.45363480250191
+			22.262637155158927,
+			60.45363480250191
 
             ]
         },
@@ -116,8 +116,8 @@ var sculptures = {
         "geometry": {
             "type": "Point",
             "coordinates": [
-                22.276606857776642,
-      60.45160186818111
+            22.276606857776642,
+			60.45160186818111
 
             ]
         },
@@ -130,8 +130,8 @@ var sculptures = {
         "geometry": {
             "type": "Point",
             "coordinates": [
-      22.279415481571164,
-      60.438484323883586
+			22.279415481571164,
+			60.438484323883586
 
             ]
         },
@@ -145,7 +145,7 @@ var sculptures = {
             "type": "Point",
             "coordinates": [
                 22.2548246383667,
-      60.433096556029085
+				60.433096556029085
 
             ]
         },
@@ -545,7 +545,7 @@ var sculptures = {
         "properties": {
             "popupContent": "Fibonacci Sequence 1–55 -teos"
         }
-    }			
+    },			
 	{
             "geometry": {
                 "type": "Point",
