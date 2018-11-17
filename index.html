@@ -245,6 +245,17 @@
 			}
 		};
 		
+		geojsonOpts_2 = {
+			pointToLayer: function(feature, latlng) {
+			return L.marker(latlng,{icon:museumIcon}).bindPopup(feature.properties.popupContent)}
+		}
+		
+		geojsonOpts_3 = {
+			pointToLayer: function(feature, latlng) {
+			return L.marker(latlng,{icon:bikeIcon}).bindPopup(feature.properties.popupContent)}
+		}
+		
+		
 		var pyörät = L.layerGroup();
 		var museot = L.layerGroup();
 		var kirkot = L.layerGroup();
@@ -252,8 +263,8 @@
 		
 		var poiLayers = L.layerGroup([
 			L.geoJson(churches, geojsonOpts).addTo(kirkot),
-			L.geoJson(bikes, geojsonOpts).addTo(pyörät),
-			L.geoJson(museums, geojsonOpts).addTo(museot),
+			L.geoJson(bikes, geojsonOpts_3).addTo(pyörät),
+			L.geoJson(museums, geojsonOpts_2).addTo(museot),
 			L.geoJson(sculptures, geojsonOpts).addTo(veistokset),
 		]).addTo(mymap);
 		
