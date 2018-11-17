@@ -11,7 +11,7 @@ body {
 /* END */
 
 #filtering {
-    min-width: 300px;
+    min-width: 275px;
 }
 
 
@@ -22,7 +22,7 @@ body {
 
 #mapId {
     height: 90%;
-    min-width: 300px;
+    width: 110%;
 }
 
 .weatherwidget-io {
@@ -31,7 +31,7 @@ body {
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     #desktopMenu {
         display: none !important;
     }
@@ -41,13 +41,18 @@ body {
     }
 
     #mapId {
-        height: 22em !important;
+        height: 23em !important;
+        width: 100%;
+    }
+
+    #wrapper {
+        margin: 1% 1% 1% 1%;
     }
 
 
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     #mobileMenu {
         display: none;
     }
