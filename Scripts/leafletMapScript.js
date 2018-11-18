@@ -23,6 +23,8 @@ var mymap = L.map('mapId').setView([60.45181, 22.26663], 13);
 		"Kirkot": kirkot,
 		"Veistokset": veistokset
 		};
+		
+		L.control.layers(overlays).addTo(mymap);
 	
 		L.control.search({
 		layer: poiLayers,
