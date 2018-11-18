@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Turku Tutuksi</title>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+  <title> About Turku Tutuksi</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </head>
 
 <body>
@@ -66,41 +67,82 @@
     </div>
 
     <h1>About sivu </h1>
-    <p>Joopa joo</p>
+    <div class="ui placeholder">
+      <div class="paragraph">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <h1 class="ui dividing header"> Turku Tutuksi - kulttuuri käden ulottuvilla </h1>
+    <p> Turku tutuksi on turisteille ja kulttuurista kiinnostuneille kaupunkilaisille suunnattu bla bla. </p>
+    <h1 class="ui dividing header"> Avoin data </h1>
+    <p>Sivusto pohjana on täysin avoin data. Kulttuurikohteiden sijaintitiedot tulevat Lounais-Suomen alueellisen
+      tietopalvelun kautta. </p>
 
-    <img class="ui large image" src="Images/placeholder.png" alt="placeholder">
+    <div class="ui centered link cards">
+      <a class="card" href="http://www.lounaistieto.fi/" target="_blank">
+        <div class="image">
+          <img src="Images/placeholder.png">
+        </div>
+        <div class="content">
+          <div class="header">Lounaistieto</div>
+          <div class="description">
+            Kulttuurikohteet ja sijaintitiedot
+          </div>
+        </div>
+      </a>
 
-    <div class="ui hidden divider"></div>
+      <a class="card" href="https://www.openstreetmap.org" target="_blank">
+        <div class="image">
+          <img src="Images/placeholder.png">
+        </div>
+        <div class="content">
+          <div class="header"> OpenStreetMap</div>
+          <div class="description">
+            Kartta ja karttakohteet
+          </div>
+        </div>
 
+      </a>
+      <a class="card" href="https://leafletjs.com/" target="_blank">
+        <div class="image">
+          <img src="Images/placeholder.png">
+        </div>
+        <div class="content">
+          <div class="header"> Leaflet</div>
+          <div class="description">
+            Kartta framework, datan asettuminen kartalle
+          </div>
+        </div>
+
+        <div class="ui hidden divider"></div>
+
+      </a>
+    </div>
   </div>
-
   <div class="ui inverted vertical footer segment">
     <div class="ui center aligned container">
       <div class="ui stackable grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">Community</h4>
+        <div class="six wide column">
+          <h4 class="ui inverted header">Avoin data:</h4>
           <div class="ui inverted link list">
-            <a class="item" href="#" target="_blank">Help me</a>
-            <a class="item" href="#" target="_blank"> make</a>
-            <a class="item" href="#" target="_blank"> money</a>
-            <a class="item" href="#" target="_blank">fast</a>
+            <a class="item" href="http://http://www.lounaistieto.fi/" target="_blank"> Kulttuurikohteet: Lounaistieto
+            </a>
+            <a class="item" href="https://www.openstreetmap.org" target="_blank"> Karttapalvelu: OpenStreetMap </a>
+            <a class="item" href="https://leafletjs.com/" target="_blank"> Framework: Leaflet </a>
+
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Network</h4>
-          <div class="ui inverted link list">
-            <a class="item" href="#" target="_blank">Link #1</a>
-            <a class="item" href="#" target="_blank">Link #2</a>
-            <a class="item" href="#">Link #3</a>
-            <a class="item" href="#">Link #4</a>
-          </div>
-        </div>
+
         <div class="seven wide right floated column">
-          <h4 class="ui inverted header">Random nonsense</h4>
-          <p> Lorem ipsum dolor sit aamuja</p>
+          <h4 class="ui inverted header">For future uses!</h4>
+          <p> Paragraph text</p>
           <form action="#" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <button type="submit" class="ui large inverted teal button">Button</button>
+            <button type="submit" class="ui large inverted green button">Button placeholder</button>
           </form>
         </div>
       </div>

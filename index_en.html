@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turku Tutuksi</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+        crossorigin=""></script>
 </head>
 
 <body>
@@ -131,15 +136,20 @@
                 <div class="ui secondary segment">
                     <p class="ui green centered header"> Some very nice text here - Lorem Ipsum </p>
                 </div>
-                <!--Embeded Google Maps-->
-                <div class="ui embed" data-url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126002.7326066116!2d22.0841286524834!3d60.43212842531219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c7584818edbbb%3A0x400b551554bc200!2sTurku!5e0!3m2!1sfi!2sfi!4v1541148695783">
-                    <noscript> Please enable JavaScript to view this map </noscript>
-                </div>
+                <!--Embeded Leaflet mappi-->
+                <div id="mapId"></div>
 
                 <script>
-                    // Enables  Google Maps embed -> loads the map
-            $('.ui.embed').embed();
-          </script>
+                    // Leaflet map code
+    var mymap = L.map('mapId').setView([60.447954, 22.253156], 13);
+
+    L.tileLayer(
+        'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoibm9ib2R5b3kiLCJhIjoiY2pvZTdjcWxtMDA0bDNxbWhqZWRteDFnYiJ9.R0rDGEePrfhPYpTf7WoQVQ', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.streets',
+        }).addTo(mymap);
+</script>
 
                 <div class="ui hidden section divider"></div>
 
@@ -149,30 +159,25 @@
     <div class="ui inverted vertical footer segment">
         <div class="ui center aligned container">
             <div class="ui stackable grid">
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Community</h4>
+                <div class="six wide column">
+                    <h4 class="ui inverted header"> Open data:</h4>
                     <div class="ui inverted link list">
-                        <a class="item" href="#" target="_blank">Help me</a>
-                        <a class="item" href="#" target="_blank"> make</a>
-                        <a class="item" href="#" target="_blank"> money</a>
-                        <a class="item" href="#" target="_blank">fast</a>
+                        <a class="item" href="http://http://www.lounaistieto.fi/" target="_blank"> Cultural sights:
+                            Lounaistieto
+                        </a>
+                        <a class="item" href="https://www.openstreetmap.org" target="_blank"> Map service:
+                            OpenStreetMap </a>
+                        <a class="item" href="https://leafletjs.com/" target="_blank"> Framework: Leaflet </a>
+
                     </div>
                 </div>
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Network</h4>
-                    <div class="ui inverted link list">
-                        <a class="item" href="#" target="_blank">Link #1</a>
-                        <a class="item" href="#" target="_blank">Link #2</a>
-                        <a class="item" href="#">Link #3</a>
-                        <a class="item" href="#">Link #4</a>
-                    </div>
-                </div>
+
                 <div class="seven wide right floated column">
-                    <h4 class="ui inverted header">Random nonsense</h4>
-                    <p> Lorem ipsum dolor sit aamuja</p>
+                    <h4 class="ui inverted header">Myydään mainostilaa!</h4>
+                    <p> Price = 1 kidney</p>
                     <form action="#" method="post" target="_top">
                         <input type="hidden" name="cmd" value="_s-xclick">
-                        <button type="submit" class="ui large inverted teal button">Button</button>
+                        <button type="submit" class="ui large inverted green button">Buy Now!</button>
                     </form>
                 </div>
             </div>
