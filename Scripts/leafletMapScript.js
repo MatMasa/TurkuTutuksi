@@ -27,15 +27,13 @@ var mymap = L.map('mapId').setView([60.447954, 22.253156], 13);
 		"Veistokset": veistokset
 		};
 	
-		var searchControl = new L.Control.Search({
-		layer: veistokset,
+		L.control.search({
+		layer: poiLayers,
+		initial: false,
 		propertyName: 'name',
-		marker: false,
-		moveToLocation: function(latlng, title, map) {
-			//map.fitBounds( latlng.layer.getBounds() );
-			var zoom = mymap.getBoundsZoom(latlng.layer.getBounds());
-  			mymap.setView(latlng, zoom); // access the zoom
+		buildTip: function(text, val) {
+			var type = val.layer.feature.properties.amenity;
+			return '<a href="#" class="'+type+'">'+text+'<b>'+type+'</b></a>';
 		}
-	});
-
-	mymap.addControl( searchControl );  //inizialize search control
+	})
+	.addTo(mymap);

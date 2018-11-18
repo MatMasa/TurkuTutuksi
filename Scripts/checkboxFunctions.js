@@ -43,3 +43,18 @@ function kirkkoFunction() {
 				}
 		  
 		  }
+		  
+		  function veistoksetFunction() {
+			var checkbox = document.getElementById("myCheck3");
+				if(checkbox.checked == true) {
+					mymap.addLayer(veistokset)
+					mymap.removeLayer(museot);
+					mymap.removeLayer(kirkot);
+					mymap.removeLayer(pyörät);
+				} else {
+				mymap.addLayer(museot)
+				mymap.addLayer(kirkot)
+				mymap.addLayer(pyörät)
+				}
+		  
+		  }
