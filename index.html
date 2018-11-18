@@ -131,6 +131,7 @@
 					mymap.removeLayer(pyörät);
 					mymap.removeLayer(museot);
 					mymap.removeLayer(veistokset);
+					
 				} else {
 				mymap.addLayer(pyörät)
 				mymap.addLayer(museot)
@@ -203,8 +204,6 @@
 
 	<script>
 	
-		var data = bikes, churches, sculptures, museums;
-		
 		var mymap = L.map('mapId').setView([60.447954, 22.253156], 13);
 
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoibm9ib2R5b3kiLCJhIjoiY2pvZTdjcWxtMDA0bDNxbWhqZWRteDFnYiJ9.R0rDGEePrfhPYpTf7WoQVQ', {
@@ -277,22 +276,20 @@
 		"Veistokset": veistokset
 		};
 	
-	L.control.layers(overlays).addTo(mymap);
-	
-	
-	L.control.search({
+	mymap.addLayer(poiLayers);
+
+	var searchControl = new L.Control.Search({
 		layer: poiLayers,
-		initial: false,
 		propertyName: 'name',
-		buildTip: function(text, val) {
-			var type = val.layer.feature.properties.name;
-			return '<a href="#" class="'+properties+'">'+name+'<b>'+type+'</b></a>';
+		marker: false,
+		moveToLocation: function(latlng, title, map) {
+			//map.fitBounds( latlng.layer.getBounds() );
+			var zoom = mymap.getBoundsZoom(latlng.layer.getBounds());
+  			mymap.setView(latlng, zoom); // access the zoom
 		}
-	})
-	.addTo(mymap);
-	
-	
-	
+	});
+
+	mymap.addControl( searchControl );  //inizialize search control
 	
 	
 	
