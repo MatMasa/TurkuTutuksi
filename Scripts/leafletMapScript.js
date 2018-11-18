@@ -18,10 +18,11 @@ var mymap = L.map('mapId').setView([60.45181, 22.26663], 13);
 		]).addTo(mymap);
 		
 		var overlays = {
-	 	"Pyörät": pyörät,
+	 	"Kaikki": poiLayers,
+		"Pyörät": pyörät,
 		"Museot": museot,
 		"Kirkot": kirkot,
-		"Veistokset": veistokset
+		"Patsaat": veistokset
 		};
 		
 		L.control.layers(overlays).addTo(mymap);
