@@ -8,16 +8,13 @@ var mymap = L.map('mapId').setView([60.447954, 22.253156], 13);
         }).addTo(mymap);
 
 		
-		var pyörät = L.layerGroup();
-		var museot = L.layerGroup();
-		var kirkot = L.layerGroup();
-		var veistokset = L.layerGroup();
+		
 		
 		var poiLayers = L.layerGroup([
-			L.geoJson(churches, geojsonOpts_4).addTo(kirkot),
-			L.geoJson(bikes, geojsonOpts_3).addTo(pyörät),
-			L.geoJson(museums, geojsonOpts_2).addTo(museot),
-			L.geoJson(sculptures, geojsonOpts).addTo(veistokset),
+			kirkot = L.geoJson(churches, geojsonOpts_4),
+			pyörät = L.geoJson(bikes, geojsonOpts_3),
+			museot = L.geoJson(museums, geojsonOpts_2),
+			veistokset = L.geoJson(sculptures, geojsonOpts),
 		]).addTo(mymap);
 		
 		var overlays = {
