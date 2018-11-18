@@ -8,8 +8,7 @@
   <title>Turku Tutuksi</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-    crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -103,22 +102,21 @@
             $('.ui.dropdown')
             .dropdown();
         </script>
-
-          <div class="ui hidden divider"></div>
+		
+		<div class="ui hidden divider"></div>
 
           <div class="ui checkbox">
-            <input type="checkbox" name="example">
+            <input type="checkbox" id="myCheck" onclick="kirkkoFunction()">
             <label>Kirkot</label>
           </div>
           <div class="ui checkbox">
-            <input type="checkbox" name="example">
+            <input type="checkbox" id="myCheck1" onclick="museoFunction()">
             <label>Museot</label>
           </div>
           <div class="ui checkbox">
-            <input type="checkbox" name="example">
+            <input type="checkbox"id="myCheck2" onclick="pyörätFunction()" >
             <label> <i class="bicycle icon"></i> Kaupunkipyörät</label>
           </div>
-
           <h1 class="ui dividing header">Placeholder content...</h1>
           <div class="ui icon message">
             <i class="info icon"></i>
@@ -137,6 +135,7 @@
         <!--Embeded Leaflet mappi-->
         <div id="mapId"></div>
 
+
         <script>
           // Leaflet map code
           var mymap = L.map('mapId').setView([60.447954, 22.253156], 13);
@@ -147,6 +146,7 @@
             id: 'mapbox.streets',
           }).addTo(mymap);
         </script>
+
 
         <div class="ui hidden section divider"></div>
 
