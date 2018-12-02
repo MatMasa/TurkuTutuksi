@@ -89,7 +89,9 @@ var sculptures = {
         "type": "Feature",
         "properties": {
             "popupContent": "Aleksis Kiven muistomerkki -patsas",
-						"name": "Aleksis Kiven muistomerkki -patsas"
+						"name": "Aleksis Kiven muistomerkki -patsas",
+						"imgUrl": "https://www.turku.fi/sites/default/files/styles/content_half_breakpoints_theme_driveturku_desktop_1x/public/thumbnails/image/wa_aleksiskivi.jpg?itok=aKmtJSde",
+						"Link": "https://fi.wikipedia.org/wiki/Aleksis_Kiven_muistomerkki_(Turku)"
         }
     },
     {

@@ -61,5 +61,17 @@ body {
 
 }
 
+.leaflet-popup-content {
+text-align: center;
+max-width: "auto";
+height: "auto";
+overflow-y: scroll;
+}
 
-  
+.popupImage {
+max-width: 100%;
+max-height: 100%;
+margin: 0 auto;
+display: block;
+
+}
