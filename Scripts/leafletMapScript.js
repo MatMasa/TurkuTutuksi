@@ -27,13 +27,3 @@ var mymap = L.map('mapId').setView([60.45181, 22.26663], 13);
 		
 		L.control.layers(overlays).addTo(mymap);
 	
-		L.control.search({
-		layer: poiLayers,
-		initial: false,
-		propertyName: 'name',
-		buildTip: function(text, val) {
-			var type = val.layer.feature.properties.amenity;
-			return '<a href="#" class="'+type+'">'+text+'<b>'+type+'</b></a>';
-		}
-	})
-	.addTo(mymap);
