@@ -12,3 +12,17 @@ var bikeIcon = L.icon({
 			iconAnchor:[12,12],
 			popupAnchor:[0,-15]
 		});
+		
+		var churchIcon = L.icon({
+			iconUrl: 'Images/ChurchIcon.png',
+			iconSize: [32, 32],
+			iconAnchor:[12,12],
+			popupAnchor:[0,-15]
+		});
+		
+		var statueIcon = L.icon({
+			iconUrl: 'Images/StatueIcon.png',
+			iconSize: [35, 35],
+			iconAnchor:[12,12],
+			popupAnchor:[0,-15]
+		});
