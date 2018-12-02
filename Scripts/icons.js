@@ -8,7 +8,7 @@ var bikeIcon = L.icon({
 		
 		var museumIcon = L.icon({
 			iconUrl: 'Images/museummarker.png',
-			iconSize: [22, 22],
+			iconSize: [28, 30],
 			iconAnchor:[12,12],
 			popupAnchor:[0,-15]
 		});
