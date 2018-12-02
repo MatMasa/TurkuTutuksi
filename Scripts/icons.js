@@ -22,7 +22,7 @@ var bikeIcon = L.icon({
 		
 		var statueIcon = L.icon({
 			iconUrl: 'Images/StatueIcon.png',
-			iconSize: [35, 35],
+			iconSize: [32, 32],
 			iconAnchor:[12,12],
 			popupAnchor:[0,-15]
 		});
