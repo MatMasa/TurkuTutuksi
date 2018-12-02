@@ -15,7 +15,7 @@ var bikeIcon = L.icon({
 		
 		var churchIcon = L.icon({
 			iconUrl: 'Images/ChurchIcon.png',
-			iconSize: [32, 32],
+			iconSize: [28, 28],
 			iconAnchor:[12,12],
 			popupAnchor:[0,-15]
 		});
