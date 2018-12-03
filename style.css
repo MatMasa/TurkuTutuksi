@@ -67,10 +67,10 @@ font-weight: bold;
 text-align: center;
 max-width: "auto";
 height: "auto";
-overflow-y: scroll;
 }
 
 .popupImage {
+padding-top: 15px;
 max-width: 80%;
 max-height: 80%;
 margin: 0 auto;
