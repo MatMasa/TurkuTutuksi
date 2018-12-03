@@ -27,7 +27,7 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Apteekkimuseo & Qwenselin talo",
-                "imgUrl": "https://www.turku.fi/sites/default/files/styles/opengraph/public/thumbnails/image/apteekkimuseo_0.jpg?itok=u5CzHGOP",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Aurajoki%2C_Apteekkimuseo.jpg",
                 "Link": "https://www.turku.fi/apteekkimuseo"
             }
         },
