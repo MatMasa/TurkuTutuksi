@@ -11,7 +11,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Aboa Vetus & Ars Nova -museo"
+                "popupContent": "Aboa Vetus & Ars Nova -museo",
+                "imgUrl": "https://cdn.vaiste.com/sites/opiskelijankaupunki.fi/files/styles/flexslider_full/public/aboavetusarsnova.jpg?itok=TT8F7r_s",
+                "Link": "https://www.aboavetusarsnova.fi/fi"
             }
         },
 		{
@@ -24,7 +26,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Apteekkimuseo & Qwenselin talo"
+                "popupContent": "Apteekkimuseo & Qwenselin talo",
+                "imgUrl": "https://www.turku.fi/sites/default/files/styles/opengraph/public/thumbnails/image/apteekkimuseo_0.jpg?itok=u5CzHGOP",
+                "Link": "https://www.turku.fi/apteekkimuseo"
             }
         },
 		{
@@ -37,7 +41,10 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Biologinen museo"
+                "popupContent": "Biologinen museo",
+                "imgUrl": "https://www.turkulainen.fi/sites/default/files/styles/free_w768_-_esm_2018/public/neo/files/1203915.jpg?itok=5sDy18-p",
+                "Link": "https://www.turku.fi/biologinenmuseo"
+
             }
         },
 		{
@@ -50,7 +57,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Ett Hem -museo"
+                "popupContent": "Ett Hem -museo",
+                "imgUrl": "https://arjenpilkahduksia.files.wordpress.com/2017/08/etthem_nimi-e1520103866647.jpg?w=840",
+                "Link": "http://etthem.fi/?lang=fi"
             }
         },
 		{
@@ -63,7 +72,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Merikeskus Forum Marinum"
+                "popupContent": "Merikeskus Forum Marinum",
+                "imgUrl": "http://www.forum-marinum.fi/wp-content/uploads/2017/03/goran-joen-rannalla.jpg",
+                "Link": "https://www.forum-marinum.fi/fi/"
             }
         },
 		{
@@ -76,7 +87,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Kuralan Kylämäki"
+                "popupContent": "Kuralan Kylämäki",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -89,7 +102,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Luostarinmäen käsityöläismuseo"
+                "popupContent": "Luostarinmäen käsityöläismuseo",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -102,7 +117,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Sibelius-museo"
+                "popupContent": "Sibelius-museo",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -115,7 +132,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Turun tuomiokirkkomuseo"
+                "popupContent": "Turun tuomiokirkkomuseo",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -128,7 +147,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Turun linna"
+                "popupContent": "Turun linna",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -141,7 +162,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Turun taideomuseo"
+                "popupContent": "Turun taideomuseo",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -154,7 +177,9 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Väinö Aaltosen museo"
+                "popupContent": "Väinö Aaltosen museo",
+                "imgUrl": "",
+                "Link": ""
             }
         },
 		{
@@ -167,8 +192,10 @@ var museums = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "Turun terveydenhuoltomuseo"
+                "popupContent": "Turun terveydenhuoltomuseo",
+                "imgUrl": "",
+                "Link": ""
             }
-        }	
+        }
     ]
 }
