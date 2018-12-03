@@ -12,7 +12,7 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Aboa Vetus & Ars Nova -museo",
-                "imgUrl": "https://cdn.vaiste.com/sites/opiskelijankaupunki.fi/files/styles/flexslider_full/public/aboavetusarsnova.jpg?itok=TT8F7r_s",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Aboa_Vetus_%26_Ars_Nova_ulkokuva_2016.jpg/800px-Aboa_Vetus_%26_Ars_Nova_ulkokuva_2016.jpg",
                 "Link": "https://www.aboavetusarsnova.fi/fi"
             }
         },
