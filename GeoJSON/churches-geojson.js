@@ -11,7 +11,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Turun Tuomiokirkko"
+				"popupContent": "Turun Tuomiokirkko",
+				"name": "Turun Tuomiokirkko",
+				"imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/7455974/IMG_3150_M.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/turun-tuomiokirkko"
 			}
 		},
 		{
@@ -24,7 +27,11 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Henrikinkirkko"
+				"popupContent": "Henrikinkirkko",
+				"name": "Henrikinkirkko",
+				"imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Henrikin_kirkko%2C_Turku_2.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/henrikinkirkko"
+				
 			}
 		},
 		{
@@ -37,7 +44,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Hirvensalon kirkko"
+				"popupContent": "Hirvensalon kirkko",
+				"name": "Hirvensalon kirkko",
+				"imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/5198229/hirvensalon_Kirkko_jakonen_kirkotjatilat_S.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/hirvensalon-kirkko"
 			}
 		},
 		{
@@ -50,7 +60,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Kakskerran kirkko"
+				"popupContent": "Kakskerran kirkko",
+				"name": "Kakskerran kirkko",
+				"imgUrl": "http://www.rky.fi/read/asp/hae_kuva.aspx?id=108054&ttyyppi=jpg&kunta_id=853",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/kakskerran-kirkko"
 			}
 		},
 		{
@@ -63,7 +76,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Maarian kirkko"
+				"popupContent": "Maarian kirkko",
+				"name": "Maarian kirkko",
+				"imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/5182794/maarian_kirkko_jakonen_kirkotjatilat_S.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/maarian-kirkko"
 			}
 		},
 		{
@@ -76,7 +92,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Martinkirkko"
+				"popupContent": "Martinkirkko",
+				"name": "Martinkirkko",
+				"imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Martinkirkko_front.jpg/240px-Martinkirkko_front.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/martinkirkko"
 			}
 		},
 		{
@@ -89,7 +108,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Mikaelinkirkko"
+				"popupContent": "Mikaelinkirkko",
+				"name": "Mikaelinkirkko",
+				"imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/5152307/mikaelinkirkko_jakonen_lukkari_S.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/mikaelinkirkko"
 			}
 		},
 		{
@@ -102,7 +124,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Paattisten kirkko"
+				"popupContent": "Paattisten kirkko",
+				"name": "Paattisten kirkko",
+				"imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/5251538/paattisten_kirkko_jakonen_kirkotjatilat_S.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/paattisten-kirkko"
 			}
 		},
 		{
@@ -115,7 +140,10 @@ var churches = {
 			},
 			"type": "Feature",
 			"properties": {
-				"popupContent": "Pyhän Katariinan kirkko"
+				"popupContent": "Pyhän Katariinan kirkko",
+				"name": "Pyhän Katariinan kirkko",
+				"imgUrl": "http://jiipeenetti.fi/images/stories/nahtavyydet/1024/pyhan_katariinan_kirkko_1.jpg",
+				"Link": "http://www.turunseurakunnat.fi/kirkot-ja-kappelit/pyhan-katariinan-kirkko"
 			}
 		}
     ]
