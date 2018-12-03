@@ -42,7 +42,7 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Biologinen museo",
-                "imgUrl": "https://www.turkulainen.fi/sites/default/files/styles/free_w768_-_esm_2018/public/neo/files/1203915.jpg?itok=5sDy18-p",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Turun_biologinen_museo.jpg",
                 "Link": "https://www.turku.fi/biologinenmuseo"
 
             }
@@ -58,7 +58,7 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Ett Hem -museo",
-                "imgUrl": "https://arjenpilkahduksia.files.wordpress.com/2017/08/etthem_nimi-e1520103866647.jpg?w=840",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ett_Hem_01.JPG",
                 "Link": "http://etthem.fi/?lang=fi"
             }
         },
@@ -73,7 +73,7 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Merikeskus Forum Marinum",
-                "imgUrl": "http://www.forum-marinum.fi/wp-content/uploads/2017/03/goran-joen-rannalla.jpg",
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Forum_Marinum_P%C3%A4%C3%A4rakennus_2016.jpg",
                 "Link": "https://www.forum-marinum.fi/fi/"
             }
         },
@@ -88,8 +88,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Kuralan Kylämäki",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kuralan_kyl%C3%A4m%C3%A4ki.jpg",
+                "Link": "https://www.turku.fi/kuralankylamaki"
             }
         },
 		{
@@ -103,8 +103,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Luostarinmäen käsityöläismuseo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Turun_k%C3%A4sity%C3%B6l%C3%A4ismuseo.jpg",
+                "Link": "https://www.turku.fi/kasityolaismuseo"
             }
         },
 		{
@@ -118,8 +118,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Sibelius-museo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Sibeliusmuseum.jpg",
+                "Link": "https://www.sibeliusmuseum.fi/fi/"
             }
         },
 		{
@@ -133,8 +133,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Turun tuomiokirkkomuseo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "http://www.turunseurakunnat.fi/documents/4061184/7455974/IMG_3150_M.jpg",
+                "Link": "http://www.turuntuomiokirkko.fi/tuomiokirkkomuseo"
             }
         },
 		{
@@ -148,8 +148,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Turun linna",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Turku_Castle.jpg",
+                "Link": "https://www.turku.fi/turunlinna"
             }
         },
 		{
@@ -163,8 +163,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Turun taideomuseo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Turku_Museum_of_Art.jpg",
+                "Link": "https://www.turuntaidemuseo.fi/"
             }
         },
 		{
@@ -178,8 +178,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Väinö Aaltosen museo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/W%C3%A4in%C3%B6_Aaltosen_museo.jpg",
+                "Link": "https://www.turku.fi/waino-aaltosen-museo"
             }
         },
 		{
@@ -193,8 +193,8 @@ var museums = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Turun terveydenhuoltomuseo",
-                "imgUrl": "",
-                "Link": ""
+                "imgUrl": "https://www.visitturku.fi/sites/default/files/styles/top_carousel/public/images/attraction_cards/terveydenhoito_museo_0.jpg?itok=mDkcmYey",
+                "Link": "https://www.visitturku.fi/turun-terveydenhuoltomuseo_"
             }
         }
     ]
