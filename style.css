@@ -5,7 +5,7 @@ body {
 }
 
 .footer {
-    margin-top: 304px !important;
+    margin-top: 50px !important;
 }
 
 /* END */
@@ -20,7 +20,7 @@ body {
 
 #mapId {
     height: 100%;
-    width: 110%;
+    width: 120%;
 }
 
 .weatherwidget-io {
