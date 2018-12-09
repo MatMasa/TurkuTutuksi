@@ -95,28 +95,13 @@
           </script>
           
 		<h1 class="ui dividing header">Suodata kohteita...</h1>
-
+		<input type="radio" name="filter"  id = "kirkkoRadio" onclick = "kirkkoFunction()" > <label> Kirkot </label>
+		<input type="radio" name="filter"  id = "museoRadio" onclick = "museoFunction()"> <label> Museot </label>
+		<input type="radio" name="filter"  id = "patsaatRadio" onclick = "patsaatFunction()" > <label> Patsaat </label>
+		<input type="radio" name="filter"  id = "pyörätRadio" onclick = "pyörätFunction()"> <label><i class="bicycle icon"></i> Kaupunkipyörät</label>
+		<input type="radio" name="filter"  id = "kaikkiRadio" onclick = "kaikkiFunction()"> <label> Kaikki </label>
           <div class="ui hidden divider"></div>
-
-          <div class="ui checkbox">
-            <input type="checkbox" id="myCheck" onclick="kirkkoFunction()">
-            <label>Kirkot</label>
-          </div>
-          <div class="ui checkbox">
-            <input type="checkbox" id="myCheck1" onclick="museoFunction()">
-            <label>Museot</label>
-          </div>
-          <div class="ui checkbox">
-            <input type="checkbox" id="myCheck3" onclick="veistoksetFunction()">
-            <label>Patsaat</label>
-          </div>
-          <div class="ui checkbox">
-            <input type="checkbox" id="myCheck2" onclick="pyörätFunction()">
-            <label> <i class="bicycle icon"></i> Kaupunkipyörät</label>
-          </div>
-
-
-
+        
         </div>
       </div>
       <div class="ten wide column">

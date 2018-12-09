@@ -1,60 +1,42 @@
 function kirkkoFunction() {
-			var checkbox = document.getElementById("myCheck");
-				if(checkbox.checked == true) {
-					mymap.addLayer(kirkot)
+if (document.getElementById('kirkkoRadio').checked) {
+				mymap.addLayer(kirkot)
 					mymap.removeLayer(pyörät);
 					mymap.removeLayer(museot);
 					mymap.removeLayer(veistokset);
-					
-				} else {
-				mymap.addLayer(pyörät)
+}
+} 
+function museoFunction() {
+if(document.getElementById('museoRadio').checked) {
 				mymap.addLayer(museot)
-				mymap.addLayer(veistokset)
-				}
-		  
-		  }
-		  
-		  function museoFunction() {
-			var checkbox = document.getElementById("myCheck1");
-				if(checkbox.checked == true) {
-					mymap.addLayer(museot)
 					mymap.removeLayer(pyörät);
 					mymap.removeLayer(kirkot);
 					mymap.removeLayer(veistokset);
-				} else {
+}
+}
+function pyörätFunction() {
+if(document.getElementById('pyörätRadio').checked) {
 				mymap.addLayer(pyörät)
-				mymap.addLayer(kirkot)
-				mymap.addLayer(veistokset)
-				}
-		  
-		  }
-		  
-		  function pyörätFunction() {
-			var checkbox = document.getElementById("myCheck2");
-				if(checkbox.checked == true) {
-					mymap.addLayer(pyörät)
 					mymap.removeLayer(museot);
 					mymap.removeLayer(kirkot);
 					mymap.removeLayer(veistokset);
-				} else {
-				mymap.addLayer(museot)
-				mymap.addLayer(kirkot)
+}
+}
+function patsaatFunction() {
+if(document.getElementById('patsaatRadio').checked) {
 				mymap.addLayer(veistokset)
-				}
-		  
-		  }
-		  
-		  function veistoksetFunction() {
-			var checkbox = document.getElementById("myCheck3");
-				if(checkbox.checked == true) {
-					mymap.addLayer(veistokset)
-					mymap.removeLayer(museot);
-					mymap.removeLayer(kirkot);
 					mymap.removeLayer(pyörät);
-				} else {
+					mymap.removeLayer(kirkot);
+					mymap.removeLayer(museot);
+}
+}
+function kaikkiFunction() {
+if(document.getElementById('kaikkiRadio').checked) {
 				mymap.addLayer(museot)
 				mymap.addLayer(kirkot)
 				mymap.addLayer(pyörät)
-				}
-		  
-		  }
+				mymap.addLayer(veistokset)
+				
+}
+}
+
