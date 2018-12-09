@@ -17,12 +17,14 @@ var mymap = L.map('mapId').setView([60.45181, 22.26663], 13);
 			veistokset = L.geoJson(sculptures, geojsonOpts),
 		]).addTo(mymap);
 		
+		
+		
 		var overlays = {
-	 	"Kaikki": poiLayers,
-		"Pyörät": pyörät,
+	 	"Pyörät": pyörät,
 		"Museot": museot,
 		"Kirkot": kirkot,
-		"Patsaat": veistokset
+		"Patsaat": veistokset,
+		"Kaikki": poiLayers
 		};
 		
 		L.control.layers(overlays).addTo(mymap);
