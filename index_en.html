@@ -95,24 +95,11 @@
 
                     <div class="ui hidden divider"></div>
 
-
-                    <div class="ui checkbox">
-                        <input type="checkbox" id="myCheck" onclick="kirkkoFunction()">
-                        <label>Churches</label>
-                    </div>
-                    <div class="ui checkbox">
-                        <input type="checkbox" id="myCheck1" onclick="museoFunction()">
-                        <label>Museums</label>
-                    </div>
-                    <div class="ui checkbox">
-                        <input type="checkbox" id="myCheck3" onclick="veistoksetFunction()">
-                        <label>Sculptures</label>
-                    </div>
-                    <div class="ui checkbox">
-                        <input type="checkbox" id="myCheck2" onclick="pyörätFunction()">
-                        <label> <i class="bicycle icon"></i> City bikes</label>
-                    </div>
-
+					<input type="radio" name="filter"  id = "kirkkoRadio" onclick = "kirkkoFunction()" > <label> Churches </label>
+					<input type="radio" name="filter"  id = "museoRadio" onclick = "museoFunction()"> <label> Museums </label>
+					<input type="radio" name="filter"  id = "patsaatRadio" onclick = "patsaatFunction()" > <label> Sculptures </label>
+					<input type="radio" name="filter"  id = "pyörätRadio" onclick = "pyörätFunction()"> <label><i class="bicycle icon"></i> City Bikes</label>
+					<input type="radio" name="filter"  id = "kaikkiRadio" onclick = "kaikkiFunction()"> <label> All </label>
 
                 </div>
             </div>
