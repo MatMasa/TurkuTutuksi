@@ -1,8 +1,6 @@
 geojsonOpts = {
 			pointToLayer: function(feature, latlng) {
-			return L.marker(latlng,{icon:statueIcon}).bindPopup(feature.properties.popupContent +
-              	"</strong><br/>" + "<img src=" + feature.properties.imgUrl + "" + " class=popupImage " + "/>" +
-								"</strong><br/>" + "<a href='" + feature.properties.Link  + "'target=\'_blank\'>" + "Tietoja kohteesta" + "</a>")}
+			return L.marker(latlng,{icon:statueIcon}).bindPopup(feature.properties.popupContent)}
 		}
 
 		geojsonOpts_2 = {
