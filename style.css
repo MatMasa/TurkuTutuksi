@@ -1,14 +1,7 @@
-/* Used to push down the footer down to bottom when not enouch content*/
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .footer {
-    margin-top: 50px !important;
+    margin-top: 90px !important;
+    min-height: 270px !important;
 }
-
-/* END */
 
 #filtering {
     min-width: 265px;
@@ -26,8 +19,6 @@ body {
 .weatherwidget-io {
     max-height: 325px;
 }
-
-
 
 
 @media only screen and (max-width: 767px) {
@@ -75,5 +66,4 @@ max-width: 100%;
 max-height: 100%;
 margin: 0 auto;
 display: block;
-
 }

@@ -75,7 +75,7 @@
 
       <div class="four wide column" id="filtering">
         <div class="ui secondary segment">
-            <h1 class="ui dividing header"> Kartan käytöstä </h1>
+          <h1 class="ui dividing header"> Kartan käytöstä </h1>
           <div class="ui icon message">
             <i class="info icon"></i>
             <div class="content">
@@ -93,15 +93,16 @@
             // Weather widget script
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
           </script>
-          
-		<h1 class="ui dividing header">Suodata kohteita...</h1>
-		<input type="radio" name="filter"  id = "kirkkoRadio" onclick = "kirkkoFunction()" > <label> Kirkot </label>
-		<input type="radio" name="filter"  id = "museoRadio" onclick = "museoFunction()"> <label> Museot </label>
-		<input type="radio" name="filter"  id = "patsaatRadio" onclick = "patsaatFunction()" > <label> Patsaat </label>
-		<input type="radio" name="filter"  id = "pyörätRadio" onclick = "pyörätFunction()"> <label> Kaupunkipyörät</label>
-		<input type="radio" name="filter"  id = "kaikkiRadio" onclick = "kaikkiFunction()"> <label> Kaikki </label>
+
+          <h1 class="ui dividing header">Suodata kohteita...</h1>
+          <input type="radio" name="filter" id="kaikkiRadio" onclick="kaikkiFunction()" checked="checked"> <label> Kaikki </label>
+          <input type="radio" name="filter" id="kirkkoRadio" onclick="kirkkoFunction()"> <label> Kirkot </label>
+          <input type="radio" name="filter" id="museoRadio" onclick="museoFunction()"> <label> Museot </label>
+          <input type="radio" name="filter" id="patsaatRadio" onclick="patsaatFunction()"> <label> Patsaat </label>
+          <input type="radio" name="filter" id="pyörätRadio" onclick="pyörätFunction()"> <label> Kaupunkipyörät</label>
+
           <div class="ui hidden divider"></div>
-        
+
         </div>
       </div>
       <div class="ten wide column">
@@ -149,8 +150,8 @@
       </div>
       <div class="ui section divider"></div>
       <i class="github icon"> </i>
-      <div class="ui inverted horizontal small divided link list">
-        <a class="item" href="https://pages.github.com/" target="_blank">Hosted with GitHub Pages</a>
+      <div class="ui inverted horizontal large divided link list">
+        <a class="header item" href="https://pages.github.com/" target="_blank">Hosted with GitHub Pages</a>
       </div>
     </div>
   </div>
